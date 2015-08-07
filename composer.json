@@ -1,0 +1,24 @@
+{
+  "name": "fgreinus/phpqrcode",
+  "type": "library",
+  "description": "A PHP class to generate QR Code",
+  "keywords": ["php", "qrcode"],
+  "homepage": "https://github.com/fgreinus/phpqrcode",
+  "license": "LGPL-3.0",
+  "authors": [
+    {
+      "name": "Kairos Agency"
+    },
+    {
+      "name": "Florian Greinus"
+    }
+  ],
+  "require": {
+    "php": ">=4.3.10"
+  },
+  "autoload": {
+    "files": [
+      "qrlib.php"
+    ]
+  }
+}
